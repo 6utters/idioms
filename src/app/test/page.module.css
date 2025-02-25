@@ -9,6 +9,7 @@
     gap: 16px;
 }
 
+
 .container h2 {
     color: #002A6F;
     font-size: 26px;
@@ -47,6 +48,14 @@
 
 .booleanButtons button {
     border-radius: 12px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #0070f3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .booleanButtons .true {
@@ -71,7 +80,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 6px;
+    gap: 16px;
 }
 
 .chooseButtons button {
@@ -84,22 +93,11 @@
     padding: 8px 16px;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
 }
 
 .chooseButtons button:hover {
     background: #E3E8F2;
-}
-
-:global(button) {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 4px;
-    background-color: #0070f3;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .nextButton {
@@ -111,6 +109,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .nextButton:hover {
@@ -124,18 +129,14 @@
     font-size: 32px;
     background-color: #ffffff;
     padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .submitButton:hover {
     background-color: #f0f0f0;
-}
-
-:global(input[type="text"]) {
-    padding: 8px;
-    margin-right: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 .inputChoose {
@@ -155,6 +156,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     margin-bottom: 30px;
     font-size: 28px;
+    padding: 0 12px;
 }
 
 .quizFinished h2 {
@@ -187,6 +189,10 @@
     font-size: 24px;
     background-color: #ffffff;
     padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .buttons button:hover {

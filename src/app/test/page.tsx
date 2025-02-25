@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from "react";
+import {JSX, useEffect, useState} from "react";
 import questionsData from "../../data/questions.json";
 import styles from "./page.module.css";
 import Image from "next/image";
@@ -10,40 +10,59 @@ import CheckSvg from "./check.svg";
 import BaloonsSvg from "./baloons.svg";
 import Link from "next/link";
 
-function shuffleArray(array) {
+// Define the Question interface
+export interface Question {
+  question: string;
+  answer?: string;
+  expected_answer?: string;
+  type?: "boolean"; // if present, indicates a True/False question
+  choices?: string[]; // for multiple choice questions
+}
+
+// Define the structure of our JSON data
+interface QuestionsData {
+  "test yourself": {
+    [key: string]: Question[];
+  };
+  "Complete with one word": Question[];
+  "Paraphrase using the word in brackets": Question[];
+}
+
+// Generic array shuffling function
+function shuffleArray<T>(array: T[]): T[] {
   return array.sort(() => Math.random() - 0.5);
 }
 
 export default function Test() {
-  const [questions, setQuestions] = useState([]);
-  const [current, setCurrent] = useState(0);
-  const [score, setScore] = useState(0);
-  const [inputAnswer, setInputAnswer] = useState("");
-  const [quizFinished, setQuizFinished] = useState(false);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [current, setCurrent] = useState<number>(0);
+  const [score, setScore] = useState<number>(0);
+  const [inputAnswer, setInputAnswer] = useState<string>("");
+  const [quizFinished, setQuizFinished] = useState<boolean>(false);
 
   useEffect(() => {
-    let combined = [];
-    if (questionsData["test yourself"]) {
-      for (const key in questionsData["test yourself"]) {
-        combined = combined.concat(questionsData["test yourself"][key]);
+    let combined: Question[] = [];
+    const data = questionsData as QuestionsData;
+
+    if (data["test yourself"]) {
+      for (const key in data["test yourself"]) {
+        combined = combined.concat(data["test yourself"][key]);
       }
     }
-    combined = combined.concat(questionsData["Complete with one word"]);
-    combined = combined.concat(
-      questionsData["Paraphrase using the word in brackets"]
-    );
+    combined = combined.concat(data["Complete with one word"]);
+    combined = combined.concat(data["Paraphrase using the word in brackets"]);
     setQuestions(shuffleArray(combined));
   }, []);
 
-  // Reset input answer when the current question changes
+  // Reset the input answer when the current question changes
   useEffect(() => {
     setInputAnswer("");
   }, [current]);
 
   // Called when a user submits an answer
-  const handleAnswer = (answer) => {
+  const handleAnswer = (answer: string) => {
     const q = questions[current];
-    const correctAnswer = (q.answer || q.expected_answer).toLowerCase().trim();
+    const correctAnswer = (q.answer || q.expected_answer || "").toLowerCase().trim();
     if (answer.toLowerCase().trim() === correctAnswer) {
       setScore((prev) => prev + 1);
     }
@@ -54,7 +73,8 @@ export default function Test() {
     }
   };
 
-  const getQuestionType = (q) => {
+  // Determines the question type to display in the UI
+  const getQuestionType = (q: Question): string => {
     if (q.type) {
       return "True or False";
     } else if (q.choices) {
@@ -64,21 +84,24 @@ export default function Test() {
     }
   };
 
-  const renderQuestion = () => {
+  // Renders the current question based on its type
+  const renderQuestion = (): JSX.Element => {
     const q = questions[current];
     return (
       <div>
-        <div className={styles.questionInfo}>
-          {getQuestionType(q)}
-        </div>
+        <div className={styles.questionInfo}>{getQuestionType(q)}</div>
         <div
           className={styles.question}
           dangerouslySetInnerHTML={{ __html: q.question }}
         />
         {q.type === "boolean" && (
           <div className={styles.booleanButtons}>
-            <button className={styles.true} onClick={() => handleAnswer("true")}><Image src={CheckSvg} alt={'check'} width={54} height={54} /></button>
-            <button className={styles.false} onClick={() => handleAnswer("false")}><Image src={CrossSvg} alt={'cross'} width={54} height={54} /></button>
+            <button className={styles.true} onClick={() => handleAnswer("true")}>
+              <Image src={CheckSvg} alt="check" width={54} height={54} />
+            </button>
+            <button className={styles.false} onClick={() => handleAnswer("false")}>
+              <Image src={CrossSvg} alt="cross" width={54} height={54} />
+            </button>
           </div>
         )}
         {q.choices && (
@@ -90,15 +113,29 @@ export default function Test() {
             ))}
           </div>
         )}
+        {/* Free text input if neither boolean nor multiple choice */}
         {!q.type && !q.choices && (
           <div className={styles.inputChoose}>
             <input
               type="text"
               value={inputAnswer}
-              onChange={(e) => setInputAnswer(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                setInputAnswer(e.target.value)
+              }
             />
-            <button className={current < questions.length - 1 ? styles.nextButton : styles.submitButton} onClick={() => handleAnswer(inputAnswer)}>
-              {current < questions.length - 1 ? <Image src={NextSvg} alt={'Next'} width={40} height={40} /> : 'Submit'}
+            <button
+              className={
+                current < questions.length - 1
+                  ? styles.nextButton
+                  : styles.submitButton
+              }
+              onClick={() => handleAnswer(inputAnswer)}
+            >
+              {current < questions.length - 1 ? (
+                <Image src={NextSvg} alt="Next" width={40} height={40} />
+              ) : (
+                "Submit"
+              )}
             </button>
           </div>
         )}
@@ -110,13 +147,11 @@ export default function Test() {
     return (
       <div className={`${styles.container} ${styles.quizFinished}`}>
         <h2>Well done!</h2>
-        <Image src={BaloonsSvg} alt={'balloons'} width={240} height={240} />
+        <Image src={BaloonsSvg} alt="balloons" width={240} height={240} />
         <h3>Your score:</h3>
         <div className={styles.score}>{score}</div>
         <div className={styles.buttons}>
-          <button onClick={() => window.location.reload()}>
-            Try Again
-          </button>
+          <button onClick={() => window.location.reload()}>Try Again</button>
           <Link href="/learning-topics">
             <button>Learn</button>
           </Link>
