@@ -1,0 +1,20 @@
+.container {
+    min-height: 100vh;
+    background: #EFF5FF;
+    padding-top: 32px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #002A6F;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 0;
+}

@@ -1,0 +1,244 @@
+{
+  "idioms": {
+    "body": [
+      {
+        "id": 0,
+        "label": "be all ears",
+        "example": "Tell me about your day at school - I am all ears",
+        "definition": "to listen very attentively",
+        "translation": "быть во внимании",
+        "img": "images/be_all_ears.png"
+      },
+      {
+        "id": 1,
+        "label": "see with the naked eye",
+        "example": "We can see Venus with the naked eye on a clear night.",
+        "definition": "to see something without any instrument",
+        "translation": "видеть невооруженным глазом",
+        "img": "images/see_with_the_naked_eye.png"
+      },
+      {
+        "id": 2,
+        "label": "raise your eyebrows",
+        "example": "The teacher raised her eyebrows when the student said elephants could fly.",
+        "definition": "to show surprise by moving your eyebrows upwards",
+        "translation": "удивиться",
+        "img": "images/raise_your_eyebrows.png"
+      },
+      {
+        "id": 3,
+        "label": "keep fingers crossed",
+        "example": "I am keeping fingers crossed that I will win the contest.",
+        "definition": "to hope that something will happen",
+        "translation": "скрестить пальцы на удачу",
+        "img": "images/keep_fingers_crossed.png"
+      },
+      {
+        "id": 4,
+        "label": "have a thick skin",
+        "example": "She never cries, she has a thick skin.",
+        "definition": "to be not easily upset by criticism",
+        "translation": "быть бесчувственным",
+        "img": "images/have_a_thick_skin.png"
+      },
+      {
+        "id": 5,
+        "label": "keep your chin up",
+        "example": "Mary lost the game, but she should keep her chin up.",
+        "definition": "to stay cheerful in a difficult situation",
+        "translation": "не падать духом",
+        "img": "images/keep_your_chin_up.png"
+      },
+      {
+        "id": 6,
+        "label": "break a leg",
+        "example": "Break a leg at the exam! I am sure you'll pass it!.",
+        "definition": "to wish somebody good luck",
+        "translation": "ни пуха ни пера",
+        "img": "images/break_a_leg.png"
+      },
+      {
+        "id": 7,
+        "label": "keep an eye on something",
+        "example": "Could you keep an eye on my bag while I go to buy the tickets?",
+        "definition": "to watch or take care of something",
+        "translation": "присмотреть, следить",
+        "img": "images/keep_an_eye_on_something.png"
+      },
+      {
+        "id": 8,
+        "label": "iron out the wrinkles",
+        "example": "The teacher advised me to iron out the wrinkles in my essay: it has few mistakes.",
+        "definition": "to remove minor difficulties",
+        "translation": "устранить недочеты",
+        "img": "images/iron_out_the_wrinkles.jpg"
+      },
+      {
+        "id": 9,
+        "label": "turn the other cheek",
+        "example": "I usually turn the other cheek when somebody is rude to me",
+        "definition": "to ignore abuse",
+        "translation": "не пытаться поквитаться",
+        "img": "images/turn_the_other_cheek.png"
+      },
+      {
+        "id": 10,
+        "label": "be long in the tooth",
+        "example": "Our cat is so long in the tooth, it will be 20 next month.",
+        "definition": "to be very old",
+        "translation": "не первой молодости",
+        "img": "images/be_long_in_the_tooth.png"
+      }
+    ],
+    "character": [
+      {
+        "id": 11,
+        "label": "be a dark horse",
+        "example": "Nobody expected Nelly to win a competition, she is a dark horse.",
+        "definition": "to win unexpectedly or a person with hidden talents",
+        "translation": "темная лошадка",
+        "img": "images/dark_horse.jpg"
+      },
+      {
+        "id": 12,
+        "label": "a lone wolf",
+        "example": "Anna has no friends at school, she is a lone wolf.",
+        "definition": "a person who likes to work alone",
+        "translation": "одинокий волк",
+        "img": "images/a_lone_wolf.png"
+      },
+      {
+        "id": 13,
+        "label": "big-headed",
+        "example": "He thinks he is the greatest student in our school, he is so big-headed.",
+        "definition": "rude, arrogant, selfish",
+        "translation": "высокомерный, пуп земли",
+        "img": "images/big_headed.png"
+      },
+      {
+        "id": 14,
+        "label": "have a heart of gold",
+        "example": "Cinderella helped everyone, she had a heart of gold.",
+        "definition": "to be very generous and kind by nature",
+        "translation": "золотое сердце",
+        "img": "images/heart_of_gold.png"
+      },
+      {
+        "id": 15,
+        "label": "an early bird",
+        "example": "An early bird catches the worm.",
+        "definition": "a person who gets up early to things",
+        "translation": "ранняя пташка",
+        "img": "images/an_early_bird.png"
+      },
+      {
+        "id": 16,
+        "label": "couch potato",
+        "example": "After school, I like to be a couch potato, watching my favourite videos!",
+        "definition": "a lazy person who likes watching TV and eating junk food",
+        "translation": "лежебока",
+        "img": "images/a_couch_potato.png"
+      }
+    ],
+    "travelling": [
+      {
+        "id": 17,
+        "label": "hit the road",
+        "example": "We have to hit the road early in the morning.",
+        "definition": "to start the journey",
+        "translation": "отправиться в путешествие",
+        "img": "images/hit_the_road.jpg"
+      },
+      {
+        "id": 18,
+        "label": "off the beaten track",
+        "example": "This village is off the beaten track, few people live there.",
+        "definition": "unusual road or destination, a place where few people go",
+        "translation": "в глуши",
+        "img": "images/off_the_beaten_track.jpg"
+      },
+      {
+        "id": 19,
+        "label": "at a crossroads",
+        "example": "I am at a crossroads, I need to choose between studying art or science.",
+        "definition": "to be at a stage of your life when you have to make a very important decision",
+        "translation": "на распутье",
+        "img": "images/at_a_crossroads.jpg"
+      },
+      {
+        "id": 20,
+        "label": "take someone for a ride",
+        "example": "Scammers took my granny for a ride, she gave them a lot of money.",
+        "definition": "to decieve or cheat someone",
+        "translation": "одурачить, обвести вокруг пальца",
+        "img": "images/take_someone_for_a_ride.jpg"
+      },
+      {
+        "id": 21,
+        "label": "live out of a suitcase",
+        "example": "My father is a long-distance driver, so he lives out of a suitcase.",
+        "definition": "to travel light, never unpacking one's luggage",
+        "translation": "жить на чемоданах",
+        "img": "images/live_out_of_a_suitcase.jpg"
+      },
+      {
+        "id": 22,
+        "label": "drive somebody mad",
+        "example": "It drives me mad when I lose a battle in a computer game",
+        "definition": "to upset or annoy someone",
+        "translation": "сводить с ума",
+        "img": "images/drive_somebody_mad.jpg"
+      }
+    ],
+    "studying": [
+      {
+        "id": 23,
+        "label": "a piece of cake",
+        "example": "Maths test was a piece of cake, I got 10.",
+        "definition": "a very easy task",
+        "translation": "пустяковое дело",
+        "img": "images/a_piece_of_cake.png"
+      },
+      {
+        "id": 24,
+        "label": "a hard nut to crack",
+        "example": "Physics turned out to be a hard nut to crack for my classmates.",
+        "definition": "a difficult problem",
+        "translation": "крепкий орешек, трудная задача",
+        "img": "images/a_hard_nut_to_crack.png"
+      },
+      {
+        "id": 25,
+        "label": "learn by heart",
+        "example": "Students should learn grammar rules by heart.",
+        "definition": "to memorize something",
+        "translation": "выучить наизусть",
+        "img": "images/learn_by_heart.png"
+      },
+      {
+        "id": 26,
+        "label": "play truant",
+        "example": "I felt bored, so I decided to play truant after Maths.",
+        "definition": "to skip lessons",
+        "translation": "прогуливать уроки",
+        "img": "images/play_truant.png"
+      },
+      {
+        "id": 27,
+        "label": "as easy as ABC",
+        "example": "Making sanndwiches is as easy as ABC for everyone.",
+        "definition": "extremely easy, requiring very little skill or effort",
+        "translation": "проще простого",
+        "img": "images/as_easy_as_ABC.png"
+      },
+      {
+        "id": 28,
+        "label": "pay attention",
+        "example": "Please, pay attention to the lesson, next time we are having a test.",
+        "definition": "to give attention to someting",
+        "translation": "обратить внимание",
+        "img": "images/pay_attention.jpg"
+      }
+    ]
+  }
+}

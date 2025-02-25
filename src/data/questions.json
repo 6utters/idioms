@@ -1,0 +1,122 @@
+{
+  "test yourself": {
+    "True or false": [
+      {
+        "id": 0,
+        "question": "<strong>To keep your fingers crossed</strong> means to hope something will happen.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 1,
+        "question": "<strong>To keep your chin up</strong> means to be depressed in a difficult situation.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 2,
+        "question": "<strong>To be a dark horse</strong> means a person with hidden talents.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 3,
+        "question": "<strong>Off the beaten track</strong> means a popular destination.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 4,
+        "question": "<strong>See with the naked eye</strong> means to see something clearly.",
+        "type": "boolean",
+        "answer": "true"
+      }
+    ],
+    "choose": [
+      {
+        "id": 5,
+        "question": "He took me for a ... when he said that I had won in a lottery.",
+        "choices": ["ride", "drive"],
+        "answer": "ride"
+      },
+      {
+        "id": 6,
+        "question": "Her father is a long-distance driver, he lives out of a ... .",
+        "choices": ["luggage", "suitcase"],
+        "answer": "suitcase"
+      },
+      {
+        "id": 7,
+        "question": "Some students like to play ... : it means they skip lessons.",
+        "choices": ["the fool", "truant"],
+        "answer": "truant"
+      },
+      {
+        "id": 8,
+        "question": "She thinks she is the best student at school, it is so ...-headed.",
+        "choices": ["big", "high"],
+        "answer": "big"
+      },
+      {
+        "id": 9,
+        "question": "I said that hippos could jump and my teacher ... her eyebrows.",
+        "choices": ["raised", "rose"],
+        "answer": "raised"
+      }
+    ]
+  },
+  "Complete with one word": [
+    {
+      "id": 10,
+      "question": "My parents call me an early _ _ _ _ because I like to get up at 5 a.m.",
+      "expected_answer": "bird"
+    },
+    {
+      "id": 11,
+      "question": "When you are _ _ a crossroads you need to make a choice..",
+      "expected_answer": "at"
+    },
+    {
+      "id": 12,
+      "question": "Max is very lazy, he likes watching YouTube all day long, he is a real couch _ _ _ _ _ _ .",
+      "expected_answer": "potato"
+    },
+    {
+      "id": 13,
+      "question": "_ _ _ the road, Jack!",
+      "expected_answer": "hit"
+    },
+    {
+      "id": 14,
+      "question": "His behaviour drives me _ _ _, I am annoyed!",
+      "expected_answer": "mad"
+    }
+  ],
+  "Paraphrase using the word in brackets": [
+    {
+      "id": 15,
+      "question": "It took me 2 hours to <strong>memorize</strong> the poem. (heart)",
+      "expected_answer": "learn by heart"
+    },
+    {
+      "id": 16,
+      "question": "Ella <strong>likes to work alone</strong>, she doesn’t need a company. (wolf)",
+      "expected_answer": "a lone wolf"
+    },
+    {
+      "id": 17,
+      "question": "<strong>I wish you good luck!</strong> I hope you will win the contest! (leg)",
+      "expected_answer": "Break a leg"
+    },
+    {
+      "id": 18,
+      "question": "Can you <strong>take care of</strong> my cat while I am away? (eye)",
+      "expected_answer": "keep an eye on"
+    },
+    {
+      "id": 19,
+      "question": "The teacher was telling an amazing story! I was <strong>listening very attentively</strong>. (all)",
+      "expected_answer": "all ears"
+    }
+  ]
+}
