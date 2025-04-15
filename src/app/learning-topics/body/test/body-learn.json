@@ -1,0 +1,122 @@
+{
+  "Body": {
+    "True or false": [
+      {
+        "id": 0,
+        "question": "<bold>To keep your fingers crossed<bold> means to hope something will happen.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 1,
+        "question": "<bold>To keep your chin up<bold> means to be depressed in a difficult situation.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 2,
+        "question": "<bold>To be all ears<bold> means to be very attentive.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 3,
+        "question": "<bold>To be long in the tooth <bold> means to be very old.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 4,
+        "question": "<bold>See with the naked eye<bold> means to see something clearly.",
+        "type": "boolean",
+        "answer": "true"
+      }
+    ],
+    "choose": [
+      {
+        "id": 5,
+        "question": "I don't want to ... the other cheek when when somebody hurts me.",
+        "choices": ["turn", "show"],
+        "answer": "turn"
+      },
+      {
+        "id": 6,
+        "question": "Can we ... out the wrinkles before the negotiations?.",
+        "choices": ["turn", "iron"],
+        "answer": "iron"
+      },
+      {
+        "id": 7,
+        "question": "Break a ... in the talent show, Max!",
+        "choices": ["leg", "arm"],
+        "answer": "leg"
+      },
+      {
+        "id": 8,
+        "question": "Don't forget to ... your chin up in any situation.",
+        "choices": ["take", "keep"],
+        "answer": "keep"
+      },
+      {
+        "id": 9,
+        "question": "I said that elephants could jump and my teacher ... her eyebrows.",
+        "choices": ["raised", "rose"],
+        "answer": "raised"
+      }
+    ],
+    "Complete with one word": [
+      {
+        "id": 10,
+        "question": "Sensitive people have a _ _ _ _ skin.",
+        "expected_answer": "thin"
+      },
+      {
+        "id": 11,
+        "question": "I'll be keeping my _ _ _ _ _ _ _ crossed that everything goes well",
+        "expected_answer": "fingers"
+      },
+      {
+        "id": 12,
+        "question": "My great grandmother is really _ _ _ _ in the tooth, she will be 98 next month.",
+        "expected_answer": "long"
+      },
+      {
+        "id": 13,
+        "question": "Tell me about your problems, I am _ _ _ ears.",
+        "expected_answer": "all"
+      },
+      {
+        "id": 14,
+        "question": "Could you keep an _ _ _ on my bag while I am buying the tickets, please?",
+        "expected_answer": "eye"
+      }
+    ],
+    "Paraphrase using the word in brackets": [
+      {
+        "id": 15,
+        "question": "Be optimictic, <bold>stay cheerful in a difficult situation <bold>. (chin)",
+        "expected_answer": "keep your chin up"
+      },
+      {
+        "id": 16,
+        "question": "Ella <bold>likes to work alone<bold>, she doesn’t need a company. (wolf)",
+        "expected_answer": "a lone wolf"
+      },
+      {
+        "id": 17,
+        "question": "<bold>I wish you good luck!<bold> I hope you will win the contest! (leg)",
+        "expected_answer": "Break a leg"
+      },
+      {
+        "id": 18,
+        "question": "Can you <bold>take care of<bold> my cat while I am away? (eye)",
+        "expected_answer": "keep an eye on"
+      },
+      {
+        "id": 19,
+        "question": "The teacher was telling an amazing story! I was <bold>listening very attentively<bold>. (all)",
+        "expected_answer": "all ears"
+      }
+    ]
+  }
+}

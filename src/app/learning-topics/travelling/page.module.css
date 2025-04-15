@@ -2,6 +2,9 @@
     min-height: 100vh;
     background: #EFF5FF;
     padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container h1 {
@@ -17,4 +20,25 @@
     align-items: center;
     gap: 32px;
     padding: 32px 0;
+}
+
+.link {
+    font-family: var(--font-roboto-slab);
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 28px;
+    font-size: 24px;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    stroke: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 32px;
+    width: fit-content;
+}
+
+.link:hover {
+    background: #E3E8F2;
 }

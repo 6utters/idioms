@@ -1,0 +1,122 @@
+{
+  "Character": {
+    "True or false": [
+      {
+        "id": 0,
+        "question": "<bold>Be a dark horse<bold> means to be a person with many secrets.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 1,
+        "question": "<bold>A lone wolf <bold> means to be a loner.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 2,
+        "question": "<bold>Big-headed <bold> means to be arrogant.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 3,
+        "question": "<bold>To have a heart of gold<bold> means to be greedy.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 4,
+        "question": "<bold>An early bird<bold> means to be a person who wakes up early.",
+        "type": "boolean",
+        "answer": "true"
+      }
+    ],
+    "choose": [
+      {
+        "id": 5,
+        "question": "In summer I become a ... potato because it is hot outside.",
+        "choices": ["couch", "sofa"],
+        "answer": "couch"
+      },
+      {
+        "id": 6,
+        "question": "An early ... bird catches the worm.",
+        "choices": ["bird", "parrot"],
+        "answer": "bird"
+      },
+      {
+        "id": 7,
+        "question": "He is so ...-headed because he thinks he is the best in our class",
+        "choices": ["big", "large"],
+        "answer": "big"
+      },
+      {
+        "id": 8,
+        "question": "- Does she have any friends at school? - No, she is a ... wolf I think.",
+        "choices": ["lone", "alone"],
+        "answer": "lone"
+      },
+      {
+        "id": 9,
+        "question": "Nobody thought Mary could win the contest, she is a ... horse.",
+        "choices": ["dark", "black"],
+        "answer": "dark"
+      }
+    ],
+    "Complete with one word": [
+      {
+        "id": 10,
+        "question": "Nobody expected Lisa to win the competition—she was a real dark _ _ _ _ _!",
+        "expected_answer": "horse"
+      },
+      {
+        "id": 11,
+        "question": "Mark prefers to work alone; he's always been a bit of a lone _ _ _ _",
+        "expected_answer": "wolf"
+      },
+      {
+        "id": 12,
+        "question": "After winning the award, Tom became so big-_ _ _ _ _ _ that no one wanted to talk to him.",
+        "expected_answer": "headed"
+      },
+      {
+        "id": 13,
+        "question": "Even though she acts tough, Maria has a heart of _ _ _ _ and always helps those in need.",
+        "expected_answer": "gold"
+      },
+      {
+        "id": 14,
+        "question": "Ever since he bought that new gaming console, Alex has turned into a total couch _ _ _ _ _ _.",
+        "expected_answer": "potato"
+      }
+    ],
+    "Paraphrase using the word in brackets": [
+      {
+        "id": 15,
+        "question": "No one knew Jake could sing so well—he turned out to <bold>win unexpectedly<bold> at the talent show! (dark)",
+        "expected_answer": "be a dark horse"
+      },
+      {
+        "id": 16,
+        "question": "Ella <bold>likes to work alone<bold>, she doesn't need a company. (wolf)",
+        "expected_answer": "a lone wolf"
+      },
+      {
+        "id": 17,
+        "question": "Ever since he got a new job, David has been so <bold>arrogant<bold> that he barely talks to his old colleagues. (big)",
+        "expected_answer": "big-headed"
+      },
+      {
+        "id": 18,
+        "question": "Uncle Pete <bold>is generous<bold> and would do anything for his family. (gold)",
+        "expected_answer": "has a heart of gold"
+      },
+      {
+        "id": 19,
+        "question": "Emma always arrives at the office before everyone else. She's such ... (bird)",
+        "expected_answer": "an early bird"
+      }
+    ]
+  }
+}

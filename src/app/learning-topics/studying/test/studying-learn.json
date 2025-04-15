@@ -1,0 +1,122 @@
+{
+  "Studying": {
+    "True or false": [
+      {
+        "id": 0,
+        "question": "<bold>A hard nut to crack<bold> means a difficult problem.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 1,
+        "question": "<bold>Play truant<bold> means skip lessons.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 2,
+        "question": "<bold>A piece of cake<bold> means something unpleasant.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 3,
+        "question": "<bold>As easy as ABC<bold> means something which is very easy.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 4,
+        "question": "<bold>Pay attention<bold> means to be aware of something.",
+        "type": "boolean",
+        "answer": "true"
+      }
+    ],
+    "choose": [
+      {
+        "id": 5,
+        "question": "This math problem is a hard nut to ...- I've been trying to solve it for hours!",
+        "choices": ["eat", "crack"],
+        "answer": "crack"
+      },
+      {
+        "id": 6,
+        "question": "The boys decided to play ... and go fishing instead of school.",
+        "choices": ["truant", "absent"],
+        "answer": "truant"
+      },
+      {
+        "id": 7,
+        "question": "The test was a piece of ... - I finished it in 20 minutes!",
+        "choices": ["pie", "cake"],
+        "answer": "cake"
+      },
+      {
+        "id": 8,
+        "question": "Making pancakes is as ... as ABC if you follow the recipe.",
+        "choices": ["easy", "simple"],
+        "answer": "easy"
+      },
+      {
+        "id": 9,
+        "question": "The actor had to learn all his lines by ... for the play.",
+        "choices": ["memory", "heart"],
+        "answer": "heart"
+      }
+    ],
+    "Complete with one word": [
+      {
+        "id": 10,
+        "question": "Once you understand the basics, playing guitar is as _ _ _ _ as ABC.",
+        "expected_answer": "easy"
+      },
+      {
+        "id": 11,
+        "question": "Cooking pasta is a _ _ _ _ _ of cake compared to making sushi.",
+        "expected_answer": "piece"
+      },
+      {
+        "id": 12,
+        "question": "It's important to learn emergency numbers by _ _ _ _ _.",
+        "expected_answer": "heart"
+      },
+      {
+        "id": 13,
+        "question": "I didn't pay _ _ _ _ _ _ _ _ _ to the instructions and now I'm confused.",
+        "expected_answer": "attention"
+      },
+      {
+        "id": 14,
+        "question": "The teacher noticed three students playing _ _ _ _ _ _ from her class.",
+        "expected_answer": "truant"
+      }
+    ],
+    "Paraphrase using the word in brackets": [
+      {
+        "id": 15,
+        "question": "Learning Chinese is <bold>a difficult task<bold> for most English speakers. (nut)",
+        "expected_answer": "a hard nut to crack"
+      },
+      {
+        "id": 16,
+        "question": "Students who regularly <bold>skip lessons<bold> often fall behind in their studies. (play)",
+        "expected_answer": "play truant"
+      },
+      {
+        "id": 17,
+        "question": "The test was <bold>a very easy task<bold> - I finished it in 20 minutes!. (of)",
+        "expected_answer": "a piece of cake"
+      },
+      {
+        "id": 18,
+        "question": "Unless you <bold>are attentive<bold> in class, you'll have trouble with the homework. (pay)",
+        "expected_answer": "pay attention"
+      },
+      {
+        "id": 19,
+        "question": "Using this new app is <bold>very easy<bold> - just tap and swipe! (as)",
+        "expected_answer": "as easy as ABC"
+      }
+    ]
+  }
+}

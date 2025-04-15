@@ -4,11 +4,27 @@ import {JSX, useEffect, useState} from "react";
 import questionsData from "../../data/questions.json";
 import styles from "./page.module.css";
 import Image from "next/image";
-import NextSvg from "./next.svg";
-import CrossSvg from "./cross.svg";
-import CheckSvg from "./check.svg";
-import BaloonsSvg from "./baloons.svg";
+import NextSvg from "../../icons/next.svg";
+import CrossSvg from "../../icons/cross.svg";
+import CheckSvg from "../../icons/check.svg";
+import BaloonsSvg from "../../icons/baloons.svg";
 import Link from "next/link";
+
+
+type CustomOmit<T extends object, K extends keyof any> = {
+  [Key in keyof T as Exclude<Key, K>]: T[Key]
+}
+
+const obj = {  
+  a: 1,
+  b: 2,
+  c: 3
+}
+
+const obj2:CustomOmit<typeof obj, 'a'> = {
+  b: 3,
+  c: 543
+}
 
 // Define the Question interface
 export interface Question {

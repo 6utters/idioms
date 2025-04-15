@@ -1,0 +1,122 @@
+{
+  "Travelling": {
+    "True or false": [
+      {
+        "id": 0,
+        "question": "<bold>Hit the road<bold> means to start a journey.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 1,
+        "question": "<bold>Off the beaten track<bold> means a popular destination.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 2,
+        "question": "<bold>At a crossroads<bold> means a tough choice.",
+        "type": "boolean",
+        "answer": "true"
+      },
+      {
+        "id": 3,
+        "question": "<bold>Take someone for a ride<bold> means to be honest with somebody.",
+        "type": "boolean",
+        "answer": "false"
+      },
+      {
+        "id": 4,
+        "question": "<bold>Live out of a suitcase<bold> means to be well-travelled.",
+        "type": "boolean",
+        "answer": "true"
+      }
+    ],
+    "choose": [
+      {
+        "id": 5,
+        "question": "We discovered a charming little café ... the beaten track that none of the guidebooks mention.",
+        "choices": ["off", "of"],
+        "answer": "off"
+      },
+      {
+        "id": 6,
+        "question": "It's already 9 PM - we should ... the road before the storm gets worse.",
+        "choices": ["hit", "shot"],
+        "answer": "hit"
+      },
+      {
+        "id": 7,
+        "question": "I'm tired of living out of a ... - I just want to stay in one place for more than two nights",
+        "choices": ["bag", "suitcase"],
+        "answer": "suitcase"
+      },
+      {
+        "id": 8,
+        "question": "After university, Sarah felt she was ... a crossroads in her life.",
+        "choices": ["at", "on"],
+        "answer": "at"
+      },
+      {
+        "id": 9,
+        "question": "The constant noise outside my window is ... me mad!",
+        "choices": ["driving", "riding"],
+        "answer": "driving"
+      }
+    ],
+    "Complete with one word": [
+      {
+        "id": 10,
+        "question": "If you want new experiences when traveling, try exploring places off the beaten _ _ _ _ _!",
+        "expected_answer": "track"
+      },
+      {
+        "id": 11,
+        "question": "After saying goodbye to everyone, I hit the _ _ _ _ with mixed feelings about leaving my hometown.",
+        "expected_answer": "road"
+      },
+      {
+        "id": 12,
+        "question": "My dad travels for work every week. He basically lives _ _ _ of a suitcase.",
+        "expected_answer": "out"
+      },
+      {
+        "id": 13,
+        "question": "This puzzle is missing a piece – it's driving me _ _ _!.",
+        "expected_answer": "mad"
+      },
+      {
+        "id": 14,
+        "question": "Don't buy that 'magic' cream - the salesman is just taking people for a _ _ _ _.",
+        "expected_answer": "ride"
+      }
+    ],
+    "Paraphrase using the word in brackets": [
+      {
+        "id": 15,
+        "question": "When people chew loudly, it <bold>annoys my sister<bold>. (mad)",
+        "expected_answer": "drives my sister mad"
+      },
+      {
+        "id": 16,
+        "question": "The taxi driver <bold>deceived<bold> me - he charged 50 roubles instead of 20. (took)",
+        "expected_answer": "took me for a ride"
+      },
+      {
+        "id": 17,
+        "question": "It's getting late—we should <bold>start the journey<bold> if we want to reach the next town before dark. (hit)",
+        "expected_answer": "hit the road"
+      },
+      {
+        "id": 18,
+        "question": "After graduating, I <bold>have a tough choice<bold> — get a job or continue studying?. (am)",
+        "expected_answer": "am at a crossroads"
+      },
+      {
+        "id": 19,
+        "question": "As a musician, she <bold>travels a lot<bold> most of the year. (lives)",
+        "expected_answer": "lives out of a suitcase"
+      }
+    ]
+  }
+}
