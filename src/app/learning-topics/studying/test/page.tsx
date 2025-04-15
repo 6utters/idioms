@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import styles from "./page.module.css";
 import LearnTest from "@/ui/LearnTest/LearnTest";
 import studyingIdioms from "./studying-learn.json";
